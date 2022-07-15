@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KP51107>𝙰𝚃𝙷𝚄𝙻</a>
+✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/athulx80>𝙰𝚃𝙷𝚄𝙻</a>
 ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/+jG8skQAT68I5MmRl>𝙼𝙾𝚅𝙸𝙴𝚂 𝙴𝙼𝙿𝙸𝚁𝙴</a>
