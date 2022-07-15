@@ -1,7 +1,7 @@
 {
     "name": "Alexa-v2",
     "description": "This Bot Will Help You To Store Files In Cloud Storage. You Can Add Files To The Bot By Forward the last file from a public channel to your bot and Press Yes Button.. If The Files Channl Is Private Make the bot admin on the channel and forward the last file to bot. Then Add the bot to you group and send the movie name The Bot Will Give the file in Bot PM..✮✮",
-    "logo": "https://telegra.ph/file/2eebed11a027a16bce098.jpg",
+    "logo": "https://telegra.ph/file/c8da76cb4b85187755d89.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/TG-V4MP1R3/Alexa-V2",
-    "repository": "https://github.com/TG-V4MP1R3/Alexa-V2",
+    "website": "https://github.com/athulx80",
+    "repository": "https://github.com/athulx80/Alexa-V2",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
