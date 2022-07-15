@@ -398,11 +398,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴜᴘᴅᴀᴛᴇ 💠', url='https://t.me/mh_world'),
-            InlineKeyboardButton('💠 ᴍᴏᴠɪᴇs 💠', url='https://t.me/+UjUbA23ZTM9iNzA1')
+            InlineKeyboardButton('💠 𝙶𝚁𝙾𝚄𝙿 💠', url='https://t.me/+Ar6gmqeNjFRkYTRl'),
+            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/+jG8skQAT68I5MmRl')
             ],[      
-            InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝙰𝙱𝙾𝚄𝚃 ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await query.message.edit_text(
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ SԾUᏒCΞ ♥️', url='https://github.com/TG-V4MP1R3/Alexa-V2')
+            InlineKeyboardButton('⭕ 𝗚𝗜𝗧𝗛𝗨𝗕 ⭕', url='https://github.com/athulx80')
             ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
