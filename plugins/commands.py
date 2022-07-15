@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/KP51107")
+                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/athulx80")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -36,11 +36,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴜᴘᴅᴀᴛᴇ 💠', url='https://t.me/mh_world'),
-            InlineKeyboardButton('💠 ᴍᴏᴠɪᴇs 💠', url='https://t.me/+UjUbA23ZTM9iNzA1')
+            InlineKeyboardButton('💠 𝙶𝚁𝙾𝚄𝙿 💠', url='https://t.me/Movies_Empire_Group'),
+            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/+jG8skQAT68I5MmRl')
             ],[      
-            InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ 𝙰𝙱𝙾𝚄𝚃 ♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -59,7 +59,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHAИИΞL 🔥", url=invite_link.invite_link
+                    "🔥 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -77,8 +77,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴜᴘᴅᴀᴛᴇ 💠', url='https://t.me/mh_world'),
-            InlineKeyboardButton('💠 ᴍᴏᴠɪᴇs 💠', url='https://t.me/+UjUbA23ZTM9iNzA1')
+            InlineKeyboardButton('💠 𝙶𝚁𝙾𝚄𝙿 💠', url='https://t.me/Movies_Empire_Group'),
+            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/+jG8skQAT68I5MmRl')
             ],[      
             InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
