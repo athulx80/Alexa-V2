@@ -1,18 +1,18 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙻𝙾 {},
+    START_TXT = """𝙷𝙴𝚈𝚈 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a> 𝙸𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝚂𝙾𝙼𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂."""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KP51107>Ꮴᴀᴍᴘɪʀᴇ</a>
+✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/KP51107>𝙰𝚃𝙷𝚄𝙻</a>
 ✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href=https://www.mongodb.com>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>
+✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/+jG8skQAT68I5MmRl>𝙼𝙾𝚅𝙸𝙴𝚂 𝙴𝙼𝙿𝙸𝚁𝙴</a>
 ✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭ will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and 𝙰𝚃𝙷𝚄𝙻 will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. ALEXA should have admin privillage.
 2. only admins can add filters in a chat.
@@ -29,7 +29,7 @@ class script(object):
 2. ALEXA supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/source00Devil)</code>
+<code>[Button Text](buttonurl:https://t.me/+Ar6gmqeNjFRkYTRl)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
