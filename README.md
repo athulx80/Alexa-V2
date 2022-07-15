@@ -54,7 +54,7 @@
 ## 🔗Deploy
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TG-V4MP1R3/Alexa-V2">
+<a href="https://heroku.com/deploy?template=https://github.com/athulx80/Alexa-V2">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -90,9 +90,9 @@
 
 ## Developers & Contributors👨‍💻
 
- [![TG-V4MP1R3](https://github.com/TG-V4MP1R3.png?size=100)](https://github.com/TG-V4MP1R3) |
+ [![ATHUL](https://github.com/TG-V4MP1R3.png?size=100)](https://github.com/athulx80) |
 ----|
-[TG-V4MP1R3](https://t.me/KP51107)  | 
+[CHANNEL](https://t.me/+jG8skQAT68I5MmRl)  | 
 Author: Developer, Base, Bug Fixes, Commits, Modules | 
 
 ##
