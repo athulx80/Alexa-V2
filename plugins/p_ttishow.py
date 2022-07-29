@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\𝚗𝙼𝚈 𝙰𝙳𝙼𝙸𝙽𝚂 𝙷𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃𝙴𝙳 𝙼𝙴 𝙵𝚁𝙾𝙼 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙷𝙴𝚁𝙴 !𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙺𝙽𝙾𝚆 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙸𝚃 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚆𝙽𝙴𝚁.</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\𝚗𝖬𝗒 𝖠𝖽𝗆𝗂𝗇𝗌 𝖧𝖺𝗌 𝖱𝖾𝗌𝗍𝗋𝗂𝖼𝗍𝖾𝖽 𝖬𝖾 𝖥𝗋𝗈𝗆 𝖶𝗈𝗋𝗄𝗂𝗇𝗀 𝖧𝖺𝗋𝖾 ! 𝖨𝖿 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖳𝗈 𝖪𝗇𝗈𝗐 𝖬𝗈𝗋𝖾 𝖠𝖻𝗈𝗎𝗍 𝖨𝗍 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 𝖮𝗐𝗇𝖾𝗋.</b>',
                 reply_markup=reply_markup,
             )
 
@@ -38,10 +38,10 @@ async def save_group(bot, message):
             return
         buttons = [
             [
-                InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/+jG8skQAT68I5MmRl')
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+L8SWfrF_7m04ODZl')
             ],
             [
-                InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -55,7 +55,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>𝙷𝙴𝚈 {u.mention}⚡ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {message.chat.title}!</b>")
+            temp.MELCOW['welcome'] = await message.reply(f"<b>𝖧𝖾𝗒𝗒 {u.mention}! 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 {message.chat.title}!!</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
