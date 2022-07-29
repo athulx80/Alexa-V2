@@ -1,20 +1,20 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝚈𝚈 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a> 𝙸𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝚂𝙾𝙼𝙴 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂."""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/athulx80>𝙰𝚃𝙷𝚄𝙻</a>
-✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✮ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/+jG8skQAT68I5MmRl>𝙼𝙾𝚅𝙸𝙴𝚂 𝙴𝙼𝙿𝙸𝚁𝙴</a>
-✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
+    START_TXT = """𝖧𝖾𝗒𝗒 {},
+𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href=https://t.me/{}>{}</a> 𝖨 𝖠𝗆 𝖠 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅𝗅 𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌..."""
+    HELP_TXT = """𝖧𝖾𝗒𝗒 {}
+𝖧𝖾𝗋𝖾 𝖨𝗌 𝖳𝗁𝖾 𝖧𝖾𝗅𝗉 𝖥𝗈𝗋 𝖬𝗒 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌."""
+    ABOUT_TXT = """➲ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
+➲ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋: <a href=https://t.me/athulx80>𝖠𝗍𝗁𝗎𝗅</a>
+➲ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒: 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
+➲ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾: 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥
+➲ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾: <a href=https://www.mongodb.com/>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
+➲ 𝖡𝗈𝗍 𝖲𝖾𝗋𝗏𝖾𝗋: 𝖧𝖾𝗋𝗈𝗄𝗎
+➲ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌: 𝖵1.0.2 [ 𝖡𝖤𝖳𝖠 ]"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
 - Filter is the feature were users can set automated replies for a particular keyword and 𝙰𝚃𝙷𝚄𝙻 will respond whenever a keyword is found the message
 <b>NOTE:</b>
-1. ALEXA should have admin privillage.
+1. FILTER BOT should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
@@ -23,13 +23,13 @@ class script(object):
 ➾ /del - <code>delete a specific filter in chat</code>
 ➾ /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
-- ALEXA Supports both url and alert inline buttons.
+- BOT Supports both url and alert inline buttons.
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. ALEXA supports buttons with any telegram media type.
+2. BOT supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/+Ar6gmqeNjFRkYTRl)</code>
+<code>[Button Text](buttonurl:http://www.example.com/)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
@@ -58,7 +58,7 @@ These are the extra features of ALEXA
 ➾ /search  - <code>get the film information from various sources.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 <b>NOTE:</b>
-This module only works for my OᗯᑎEᖇ⚡
+This module only works for my OWNER⚡
 <b>Commands and Usage:</b>
 ➾ /logs - <code>to get the rescent errors</code>
 ➾ /stats - <code>to get status of files in db.</code>
@@ -71,11 +71,11 @@ This module only works for my OᗯᑎEᖇ⚡
 ➾ /unban  - <code>to unban a user.</code>
 ➾ /channel - <code>to get list of total connected channels</code>
 ➾ /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """✮ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-✮ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-✮ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-✮ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-✮ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """✮ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ: <code>{}</code>
+✮ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code>
+✮ ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘꜱ: <code>{}</code>
+✮ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+✮ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
 ✮ 𝐆𝐫𝐨𝐮𝐩 ›› {}(<code>{}</code>)
 ✮ 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ›› <code>{}</code>
@@ -85,8 +85,10 @@ This module only works for my OᗯᑎEᖇ⚡
 ✮ 𝐈𝐃 ›› <code>{}</code>
 ✮ 𝐍𝐚𝐦𝐞 ›› {}
 """
-    CARBON_TXT = """ <b>𝙲𝙰𝚁𝙱𝙾𝙽 𝙼𝙾𝙳𝚄𝙻𝙴</b>
-<b>𝚈𝙾𝚄 𝙲𝙰𝙽 𝙱𝙴𝙰𝚄𝚃𝙸𝙵𝚈 𝚈𝙾𝚄𝚁 𝙲𝙾𝙳𝙴𝚂 𝙱𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝚂 𝙵𝙴𝙰𝚃𝚄𝚁𝙴...</b>
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳.!</b>
-<b>/carbon ›› 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝚃𝙴𝚇𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴</b>
-<b>𝚆𝙾𝚁𝙺𝚂 𝙾𝙽 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>"""
+    CARBON_TXT = """ <b>𝖢𝖠𝖱𝖡𝖮𝖭 𝖬𝖮𝖣𝖴𝖫𝖤</b>
+<b>𝖸𝗈𝗎 𝖢𝖺𝗇 𝖡𝖾𝖺𝗎𝗍𝗂𝖿𝗒 𝖸𝗈𝗎𝗋 𝖢𝗈𝖽𝖾𝗌 𝖡𝗒 𝖴𝗌𝗂𝗇𝗀 𝖳𝗁𝖾 𝖥𝖾𝖺𝗍𝗎𝗋𝖾...</b>
+<b>𝖢𝗈𝗆𝗆𝖺𝗇𝖽..!</b>
+<b>/carbon ›› 𝖱𝖾𝗉𝗅𝗒 𝖳𝗈 𝖠𝗇𝗒 𝖳𝖾𝗑𝗍 𝖬𝖾𝗌𝗌𝖺𝗀𝖾</b>
+<b>𝖱𝖾𝗉𝗅𝗒 𝖳𝗈 𝖠𝗇𝗒 𝖳𝖾𝗑𝗍 𝖬𝖾𝗌𝗌𝖺𝗀𝖾
+
+𝖶𝗈𝗋𝗄𝗌 𝖮𝗇 𝖡𝗈𝗍𝗁 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖯𝖬</b>"""
