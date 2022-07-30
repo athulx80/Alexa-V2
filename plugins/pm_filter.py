@@ -125,7 +125,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴💌')
+            k = await query.message.edit('𝖳𝗁𝗂𝗌 𝖬𝗈𝗏𝗂𝖾 𝖨𝗌 𝖭𝗈𝗍 𝖸𝖾𝗍 𝖱𝖾𝗅𝖾𝖺𝗌𝖾𝖽 𝗈𝗋 𝖠𝖽𝖽𝖾𝖽 𝖳𝗈 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾❤️')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -200,10 +200,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         user_id = query.from_user.id
 
         if act == "":
-            stat = "CONNECT"
+            stat = "ᴄᴏɴɴᴇᴄᴛ"
             cb = "connectcb"
         else:
-            stat = "DISCONNECT"
+            stat = "ᴅɪꜱᴄᴏɴɴᴇᴄᴛ"
             cb = "disconnect"
 
         keyboard = InlineKeyboardMarkup([
