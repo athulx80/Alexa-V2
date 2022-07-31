@@ -396,13 +396,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝙶𝚁𝙾𝚄𝙿 💠', url='https://t.me/+Ar6gmqeNjFRkYTRl'),
-            InlineKeyboardButton('💠 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💠', url='https://t.me/+jG8skQAT68I5MmRl')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+hC5tRAvQHHplMWQ1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/+jG8skQAT68I5MmRl')
             ],[      
-            InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝙰𝙱𝙾𝚄𝚃 ♻️', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await query.message.edit_text(
