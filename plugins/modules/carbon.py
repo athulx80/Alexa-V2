@@ -5,10 +5,10 @@ from plugins.function import make_carbon
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 aiohttpsession = ClientSession()
 
-C = "**𝙼𝙰𝙳𝙴 𝙱𝚈 [𝙶𝙸𝚃𝙷𝚄𝙱](https://github.com/athulx80)**"
+C = "**ᴍᴀᴅᴇ ʙʏ [ᴀᴛʜᴜʟ](https://github.com/athulx80)**"
 F = InlineKeyboardMarkup(
 [[
-     InlineKeyboardButton("𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/+jG8skQAT68I5MmRl")
+     InlineKeyboardButton("⭕ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+L8SWfrF_7m04ODZl")
 ]]
 )
 
@@ -20,11 +20,11 @@ F = InlineKeyboardMarkup(
 async def carbon_func(_, message):
     if not message.reply_to_message:
         return await message.reply_text(
-            "**𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝚃𝙴𝚇𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙲𝙰𝚁𝙱𝙾𝙽.**"
+            "**𝖱𝖾𝗉𝗅𝗒 𝖳𝗈 𝖳𝖾𝗑𝗍 𝖬𝖾𝗌𝗌𝖺𝗀𝖾 𝖳𝗈 𝗆𝖺𝗄𝖾 𝖢𝖺𝗋𝖻𝗈𝗇.**"
         )
     if not message.reply_to_message.text:
         return await message.reply_text(
-            "**𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙰𝙽𝚈 𝚃𝙴𝚇𝚃 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙲𝙰𝚁𝙱𝙾𝙽.**"
+            "**𝖱𝖾𝗉𝗅𝗒 𝖳𝗈 𝖳𝖾𝗑𝗍 𝖬𝖾𝗌𝗌𝖺𝗀𝖾 𝖳𝗈 𝗆𝖺𝗄𝖾 𝖢𝖺𝗋𝖻𝗈𝗇.**"
         )
     user_id = message.from_user.id
     m = await message.reply_text("**𝙲𝚁𝙴𝙰𝚃𝙸𝙽𝙶 𝙲𝙰𝚁𝙱𝙾𝙽...**")
