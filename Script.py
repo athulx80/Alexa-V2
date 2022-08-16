@@ -12,7 +12,7 @@ class script(object):
 ➲ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌: 𝖵1.0.2 [ 𝖡𝖤𝖳𝖠 ]"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>  
-- Filter is the feature were users can set automated replies for a particular keyword and 𝙰𝚃𝙷𝚄𝙻 will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Bot will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. FILTER BOT should have admin privillage.
 2. only admins can add filters in a chat.
@@ -50,7 +50,7 @@ class script(object):
 ➾ /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-These are the extra features of ALEXA
+These are the extra features of Me
 <b>Commands and Usage:</b>
 ➾ /id - <code>get id of a specifed user.</code>
 ➾ /info  - <code>get information about a user.</code>
